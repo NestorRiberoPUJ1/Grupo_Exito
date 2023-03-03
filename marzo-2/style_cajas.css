@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#jaula {
+    background-color: rebeccapurple;
+    padding: 8px;
+}
+
+.caja {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#pradera {
+    height: 120px;
+    width: 120px;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+#chinchillaImg {
+    height: 100%;
+    width: 100%;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+h1,
+h2 {
+    display: inline-block;
+    background-color: cyan;
+    width: 200px;
+}
+
+label,
+input {
+    display: block;
+    background-color: bisque;
+}
+
+p {
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 10px;
+}

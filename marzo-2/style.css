@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.t_rojo_b_azul {
+    color: black;
+    background-color: blue;
+    text-align: right;
+    text-decoration: line-through;
+    font-family: serif;
+    width: 200px;
+    height: 80px;
+    overflow: auto;
+}
+
+div p {
+    font-size: 16pt;
+}
+
+div.t_rojo_b_azul>p {
+    font-size: 12px;
+}
+
+div.t_azul_b_rojo>p {
+    font-size: 2.5em;
+}
+
+div.t_negro_b_amarillo>p {
+    font-size: 200%;
+}
+
+
+.t_azul_b_rojo {
+    color: rgb(0, 0, 255);
+    background-color: #eb0606;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    width: 50%;
+}
+
+.t_negro_b_amarillo {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    text-decoration: underline;
+    font-family: monospace;
+    width: 10em;
+    height: 10rem;
+}
+
+.t_amarillo_b_negro {
+    color: yellow;
+    background-color: black;
+    font-weight: medium;
+    font-family: cursive;
+    width: 50vw;
+    height: 50vh;
+    padding: 16px
+}
+
+#container {
+    background-color: blanchedalmond;
+    background-image: url("https://www.centrallecheraasturiana.es/nutricionysalud/wp-content/uploads/2021/05/CEREZAS-CABECERA-768x783.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+button {
+    border: 4px dotted green;
+    border-radius: 16px;
+    padding: 16px;
+}
