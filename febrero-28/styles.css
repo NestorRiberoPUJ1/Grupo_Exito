@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: green;
+    font-size: 100px;
+}
+
+label {
+    color: blue;
+}
+
+.textInput {
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    margin: 16px;
+    padding: 16px;
+}
+
+.numberInput {
+    border: 2px solid black;
+}
+
+#ninjaImg {
+    background-color: grey;
+    border-radius: 10px;
+    border: 10px solid greenyellow;
+    height: 100px;
+}
+
+.blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+.card {
+    border: 4px solid purple;
+    border-radius: 20px;
+    width: 400px;
+    background-color: gainsboro;
+}
+
+.card>h1 {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.card>div>h1 {
+    color: black;
+    font-size: medium;
+    text-align: center;
+}
+
+
+.card img {
+    height: 300px;
+}
+
+.card p {
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+}
