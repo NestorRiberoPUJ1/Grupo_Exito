@@ -1,0 +1,31 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col {
+    width: 150px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.container2 {
+    width: 720px;
+    height: 500px;
+    background-color: rgb(196, 52, 52);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col2 {
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(214, 136, 19);
+}
