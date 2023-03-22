@@ -1,0 +1,37 @@
+h1 {
+    font-style: italic;
+}
+
+.prettyElement {
+    border: 2px solid black;
+}
+
+#parrafo {
+    text-align: center;
+}
+
+.prettyElementRed {
+    border: 4px dotted red;
+}
+
+
+
+
+
+.spin {
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    text-align: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

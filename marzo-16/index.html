@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Titulo principal</h1>
+    <ul>
+        <li class="prettyElement" id="el1" onclick="toggle(this)">Elemento de lista #1</li>
+        <li class="prettyElement" id="el2" onclick="toggle(this)">Elemento de lista #2</li>
+        <li class="prettyElement" id="el3" onclick="toggle(this)">Elemento de lista #3</li>
+    </ul>
+
+    <p id="parrafo">Hoy estamo aprendiendo selectores para el DOM</p>
+
+    <label>Me gustaría comer </label>
+    <select onchange="escogerAlmuerzo(this)">
+        <option>Tacos</option>
+        <option>Pasta</option>
+        <option>Sushi</option>
+    </select>
+
+    <div class="card">
+        <p>Hola, mi nombre es:</p>
+        <h3 id="name-tag">Example</h3>
+    </div>
+
+    <input type="text" value="Example" oninput="setName(this)">
+
+    <h1 class="spin">Texto giratorio</h1>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
