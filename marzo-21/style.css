@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;900&display=swap');
 
 
 * {
@@ -8,9 +8,6 @@
 }
 
 .main {
-    background-color: beige;
-    width: 100vw;
-    height: 100vh;
     padding: 0px 20%;
     box-sizing: border-box;
 }
@@ -36,23 +33,23 @@
 }
 
 .content {
-    background-color: lightcoral;
-    height: 500px;
     margin-top: 16px;
     display: flex;
     flex-direction: row;
 }
 
 .mainCol {
-    background-color: darkcyan;
-    height: 100%;
+    background-color: lightgrey;
     flex: 3;
+    padding: 16px;
+    box-sizing: border-box;
+    height: fit-content;
 }
 
 .sideCol {
-    background-color: cornflowerblue;
-    height: 100%;
     flex: 2;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 .topBar h1 span {
@@ -116,4 +113,38 @@
     border: 2px solid black;
     padding-left: 4px;
     box-sizing: border-box;
+}
+
+.img100 {
+    width: 100%;
+}
+
+.my-8{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.centerText{
+    text-align: center;
+    color:dodgerblue;
+    font-weight: 900;
+}
+
+#infoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.likeBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.likeBar img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+.centerLink{
+    text-align: center;
 }

@@ -14,13 +14,13 @@
         <nav class="topBar">
             <h1>Just<span>Dessert</span></h1>
             <div>
-                <button id="joinButton">Join</button>
+                <button id="joinButton" onclick="deleteItem(this)">Join</button>
                 <button id="loginButton">Login</button>
             </div>
         </nav>
         <nav class="searchBar">
 
-            <form>
+            <form onsubmit="search()" method="post" >
                 <input type="text" name="searchFilter" id="entradaBusqueda" placeholder="SEARCH">
                 <button type="submit">Go</button>
             </form>
@@ -43,8 +43,41 @@
 
         </nav>
         <div class="content">
-            <div class="mainCol"></div>
-            <div class="sideCol"></div>
+            <div class="mainCol">
+                <h3 class="centerText">Recipe of the day</h3>
+                <img class="img100 my-8" src="./imgs/orange-tart.jpg" alt="orange-tart">
+                <div id="infoRow">
+                    <p>Orange Tea Jelly Tart</p>
+                    <div class="likeBar">
+                        <img src="./imgs/heart.png" id="likeButton1" alt="heart">
+                        <h4 id="likes1">68</h4>
+                    </div>
+                </div>
+                <p>by: <a href="#">yuripiano</a> </p>
+                <p class="centerLink"><a href="#">See Full Recipe</a></p>
+            </div>
+            <div class="sideCol">
+                <h4>Recomended for you:</h4>
+                <hr>
+                <img class="img100 my-8" src="./imgs/macarons.jpg" alt="orange-tart">
+                <div id="infoRow">
+                    <p>Macarons</p>
+                    <div class="likeBar">
+                        <img src="./imgs/heart.png" id="likeButton2" alt="heart">
+                        <h4 id="likes2">212</h4>
+                    </div>
+                </div>
+                <p>by: <a href="#">EmilieW</a> </p>
+                <img class="img100 my-8" src="./imgs/creme-brulee.jpg" alt="orange-tart">
+                <div id="infoRow">
+                    <p>crème Brûlée</p>
+                    <div class="likeBar">
+                        <img src="./imgs/heart.png" id="likeButton3" alt="heart">
+                        <h4 id="likes3">33</h4>
+                    </div>
+                </div>
+                <p>by: <a href="#">MarisaG</a> </p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
