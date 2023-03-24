@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+.main {
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 20%;
+    box-sizing: border-box;
+}
+
+.topBar {
+    background-color: rgb(60, 60, 60);
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+
+.searchBar {
+    background-color: orange;
+    height: 124px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: lightcoral;
+    height: 500px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainCol {
+    background-color: darkcyan;
+    height: 100%;
+    flex: 3;
+}
+
+.sideCol {
+    background-color: cornflowerblue;
+    height: 100%;
+    flex: 2;
+}
+
+.topBar h1 span {
+    color: orange;
+}
+
+.topBar h1 {
+    color: white;
+}
+
+#joinButton {
+    background-color: orange;
+    color: black;
+    width: 60px;
+    height: 30px;
+    font-weight: bolder;
+    box-shadow: 4px 4px black;
+    margin-right: 8px;
+    border: 2px solid black;
+}
+
+#loginButton {
+    background-color: dodgerblue;
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-weight: bolder;
+    box-shadow: 4px 4px black;
+    border: 2px solid black;
+}
+
+.category {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category>img {
+    width: 80%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.searchBar form {
+    display: flex;
+}
+
+.searchBar form button {
+    background-color: dodgerblue;
+    color: white;
+    width: 30px;
+    font-weight: bolder;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+}
+
+.searchBar form input {
+    border: 2px solid black;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
