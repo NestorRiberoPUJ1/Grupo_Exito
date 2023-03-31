@@ -17,7 +17,7 @@ var persona = {
     peso: 85,   //numérico
     cabello: "castaño", //texto
     soltero: true,   //booleano
-    comidas: ["Hamburguesa", "HotDog", "Fries"],
+    comidas: ["Hamburguesa", "HotDog", "Fries"],    //Lista
     contacto: {
         nombre: "Ana",
         telefono: 321321321,
